@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Parking - Traffic Simulation</title>
+    <meta name="description" content="An educational web app showcasing traffic simulations in urban environments using Three.js">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Happy Parking</h1>
+            <div class="controls-top">
+                <button id="play-pause">Pause</button>
+                <select id="scenario-select">
+                    <option value="default">Default Scenario</option>
+                    <option value="rush-hour">Rush Hour</option>
+                    <option value="weekend">Weekend</option>
+                </select>
+            </div>
+        </header>
+        <main>
+            <div id="simulation-container"></div>
+            <div id="stats-panel">
+                <h2>Simulation Statistics</h2>
+                <div id="stats-content">
+                    <!-- Stats will be populated dynamically -->
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Educational project for traffic simulation and parking optimization</p>
+        </footer>
+    </div>
+</body>
+</html>
